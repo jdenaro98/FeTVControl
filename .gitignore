@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+*.ipynb_checkpoints/
+.ipynb_checkpoints/
+
+# Rust
+target/
+Cargo.lock
+*.rlib
+
+# Simulink / MATLAB
+*.slxc
+*.mex*
+*.asv
+slprj/
+codegen/
+
+# Data files (large - store separately or use git-lfs)
+*.csv
+*.mat
+*.hdf5
+*.h5
+phase3_validation/data/*.csv
+phase3_validation/data/*.mat
+
+# Results (generated - don't track)
+results/**/*.png
+results/**/*.pdf
+results/**/*.svg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.jupyter/
